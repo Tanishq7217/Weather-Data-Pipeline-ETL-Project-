@@ -29,11 +29,15 @@ This project is an automated ETL pipeline that fetches real-time weather data fr
 
 ---
 
-##  Project Structure
 
-weather-data-pipeline/
-│
-├── main.py                   # Main automation script (ETL pipeline)
-├── database.py               # MySQL connection & insert logic
-├── config_example.py         # API key template 
+---
+
+##  How to Run
+
+1. Clone repo
+2. Install dependencies: pip install -r requirements.txt
+3. Create `config.py` and add your API key:
+```python
+API_KEY = "your_api_key"
+CITY = "Mumbai"
 
