@@ -30,3 +30,10 @@ This project is an automated ETL pipeline that fetches real-time weather data fr
 ---
 
 ##  Project Structure
+
+weather-data-pipeline/
+│
+├── main.py                   # Main automation script (ETL pipeline)
+├── database.py               # MySQL connection & insert logic
+├── config_example.py         # API key template 
+
